@@ -27,7 +27,7 @@ public class StudentTest{
 		assertThat(student.isPass(),is(false));
 	}
 
-	@Before
+	@Test
 	public void test3(){
 		student.setSubject2(49);
 		assertThat(student.isPass(),is(false));
